@@ -20,3 +20,8 @@ Here is the screen shots which explain the process of configuring the parameter 
 ![3](https://user-images.githubusercontent.com/77080621/130875752-b488a05b-ce57-4ee5-b66a-2ae8ea647a6d.PNG)
 ![4](https://user-images.githubusercontent.com/77080621/130875758-c4dad686-b37e-47d4-a502-ca1d715dbce3.PNG)
 
+Drag and drop Matrix from SSRS toolbox to data region.
+
+![5](https://user-images.githubusercontent.com/77080621/130876052-b9d2ce88-a3f8-4676-882b-274599b1199e.PNG)
+
+You will insert a
