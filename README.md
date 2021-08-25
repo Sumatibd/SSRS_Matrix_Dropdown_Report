@@ -28,7 +28,7 @@ You will right click into Data box shown in above image, hover over on Insert Co
 
 ![6](https://user-images.githubusercontent.com/77080621/130877088-1fed9c8f-09bd-4919-9aa3-894224368887.PNG)
 
-When you click on Preview tab on top, you will have to choose an option from Items? category, multiple options could also be chosed for accessing different reports. I have chosen option 'USB Rocket Launcher (Gray) item and then click on view button on right. Here is how the report will look like.
+When you click on Preview tab on top, you will have to choose an option from Items? category, multiple options could also be chosed for accessing different reports. I have chosen option 'USB rocket launcher (Gray)' item and then click on View Report button on right. Here is how the report will look like.
 
 ![1](https://user-images.githubusercontent.com/77080621/130877573-370d17cd-bf9e-422a-958c-a3873f74ae68.PNG)
 
