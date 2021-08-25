@@ -4,3 +4,7 @@
 # Snapshot of Tables with all fields
 ![tablesUsed](https://user-images.githubusercontent.com/77080621/130873931-e514f64d-478d-41d8-8a63-40f2faf0385c.PNG)
 
+# Goal Of the Project:
+In this project we will create Matrix report in SSRS (SQL Server Reporting Services) with a practical example. The below screen shot will show you the dataset, datasource and SQL used to create matrix report.
+![1](https://user-images.githubusercontent.com/77080621/130875089-d27f227a-70e8-4df4-ad1b-51726173ad1b.PNG)
+parameter @discription is used to be used for Drop down created to choose from Items. (Please refer to SQL file to check the SQL used for configuration.
