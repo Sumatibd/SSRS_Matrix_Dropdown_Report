@@ -1,0 +1,32 @@
+#  SQL for writing the main code for report in dataset1.
+
+select
+cc.customercategoryname, 
+c.customername,  c.deliverylocation, 
+ci.cityname deliverycity,
+sp.stateprovincecode deliverystatecode, sp.salesterritory deliverysalesterritory, sp.stateprovincename deliverystateprovince, 
+(select countryname from application.countries cn
+where cn.countryid=sp.countryid) deliverycountryName,
+(select deliverymethodname from application.deliverymethods dv where dv.deliverymethodid=i.deliverymethodid)
+deliverymethod,
+i.salespersonpersonid, i.customerpurchaseordernumber, 
+ o.orderdate, o.orderid,
+ol.stockitemid, ol.description, ol.quantity, ol.unitprice, ol.quantity * ol.unitprice Price,
+p.fullname salespersonname
+from 
+sales.customercategories cc 
+join sales.customers c on cc.customercategoryid=c.customercategoryid
+join sales.invoices i on (i.customerid=c.customerid )
+join sales.orders o on (o.customerid=i.customerid and o.orderid=i.orderid)
+join sales.orderlines ol on ol.orderid=o.orderid
+join application.people p on p.personid=o.salespersonpersonid 
+join application.cities ci on c.deliverycityid=ci.cityid
+join application.stateprovinces sp on sp.stateprovinceid=ci.stateprovinceid
+where p.IsSalesperson=1 and i.salespersonpersonid in (2,3,6);
+and ol.description in (@description)
+
+
+
+# SQL for writing code for parameter in dataset2.
+select distinct description 
+ from sales.orderlines ;
