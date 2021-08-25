@@ -24,8 +24,12 @@ Drag and drop Matrix from SSRS toolbox to data region.
 
 ![5](https://user-images.githubusercontent.com/77080621/130876052-b9d2ce88-a3f8-4676-882b-274599b1199e.PNG)
 
-You will right click into Data box shown in above image, hover over on Insert Column >> then click on Inside Group -Right option. Again you will click into Data box shown in above image, hover over on Insert Column >> then click on Outside Group -Left option. Then fill in the values by clicking on the small table button on very right of each box and final results will look like the below image. Right click on CustomerCategoryBox and pick the Text Box Properties. Then pick the khaki color on the fill in color option.
+You will right click into Data box shown in above image, hover over on Insert Column >> then click on Inside Group -Right option. Again you will click into Data box shown in above image, hover over on Insert Column >> then click on Outside Group -Left option. Then fill in the values by clicking on the small table button on very right of each box and final results will look like the below image. Right click on CustomerCategoryBox and pick the Text Box Properties. Then pick the khaki color on the fill in color option. You can also adjust font of different boxes according to your choice.
 
 ![6](https://user-images.githubusercontent.com/77080621/130877088-1fed9c8f-09bd-4919-9aa3-894224368887.PNG)
 
+When you click on Preview tab on top, you will have to choose an option from Items? category, multiple options could also be chosed for accessing different reports. I have chosen option 'USB Rocket Launcher (Gray) item and then click on view button on right. Here is how the report will look like.
 
+![1](https://user-images.githubusercontent.com/77080621/130877573-370d17cd-bf9e-422a-958c-a3873f74ae68.PNG)
+
+You can change the coloring and font as you like for this report.
