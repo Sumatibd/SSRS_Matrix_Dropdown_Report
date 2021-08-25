@@ -24,4 +24,8 @@ Drag and drop Matrix from SSRS toolbox to data region.
 
 ![5](https://user-images.githubusercontent.com/77080621/130876052-b9d2ce88-a3f8-4676-882b-274599b1199e.PNG)
 
-You will insert a
+You will right click into Data box shown in above image, hover over on Insert Column >> then click on Inside Group -Right option. Again you will click into Data box shown in above image, hover over on Insert Column >> then click on Outside Group -Left option. Then fill in the values by clicking on the small table button on very right of each box and final results will look like the below image. Right click on CustomerCategoryBox and pick the Text Box Properties. Then pick the khaki color on the fill in color option.
+
+![6](https://user-images.githubusercontent.com/77080621/130877088-1fed9c8f-09bd-4919-9aa3-894224368887.PNG)
+
+
